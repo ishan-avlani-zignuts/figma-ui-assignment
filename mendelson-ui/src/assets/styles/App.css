@@ -1,0 +1,491 @@
+/* home, navbar, hero styles */
+
+
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,800;1,300;1,500;1,700;1,800&display=swap");
+
+.top-left-image {
+  content: "";
+  position: absolute;
+  width: 119px;
+  height: 111px;
+  left: 0;
+  top: 0;
+}
+
+.top-right-image {
+  content: "";
+  position: absolute;
+  width: 282px;
+  height: 362px;
+  right: 0;
+  top: 0;
+
+}
+
+.medleson_logo{
+  position: absolute;
+  left: 130px;
+  top: 13px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a,
+a:hover,
+
+ul li {
+  padding: 0;
+}
+
+.navbar a.navbar-brand {
+  padding: 5px 20px;
+}
+ul.navbar-nav {
+  padding-right: 135px;
+}
+
+.navigation_part {
+  position: relative;
+}
+
+a.nav-link {
+  font-family: "Roboto", sans-serif;
+  font-style: Regular;
+  font-size: 18px;
+  line-height: 21px;
+  vertical-align: Top;
+  color: #444444;
+}
+
+
+.project_tittle::before {
+  content: '';
+  background: #A9A9A9;
+  height: 5px;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  transform: translateY(63px);
+}
+.hero_section{
+  position:relative;
+}
+.hero_img1{
+  position:absolute;
+bottom: 0;
+}
+
+
+
+.hero h1 {
+  font-family: Rubik;
+  font-size: 56px;
+  font-weight: 500;
+  line-height: 66px;
+  letter-spacing: 0em;
+  text-align: left;
+  
+}
+.hero p {
+  font-style: Regular;
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 400;
+  vertical-align: Top;
+  color: #2C2C2C;
+}
+
+.nav-alignment {
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  width: 472px;
+  height: 21px;
+  top: 42px;
+  left: 930px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 25.5px; 
+}
+
+nav ul li:last-child {
+  margin-right: 0;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.navigation_part {
+  position: relative;
+}
+.bottom-right-image{
+  position: absolute;
+  width: 207px;
+height: 249px;
+bottom: 0;
+right: 0;
+
+}
+
+
+/* Abouts us */
+
+@-webkit-keyframes jump-1{from{-webkit-transform:translate(0,0); opacity:1} 50%{-webkit-transform:translate(0,-3px); opacity:1} to{-webkit-transform:translate(0,0); opacity:1;} }
+.aboutus-content h2 {
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 57px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.aboutus-content p {
+  font-family: Rubik;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #2c2c2c;
+}
+.aboutus_Engagement h2 {
+  font-family: Rubik;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  text-transform: uppercase;
+}
+.aboutus_Engagement p {
+  font-family: Rubik;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.aboutus-img img {
+  width: 81%;
+}
+.aboutus_Engagement i {
+  font-size: 20px;
+}
+.aboutus_Engagement img {
+  height: 41px;
+  width: 43px;
+  left: 1153px;
+  top: 1237px;
+  border-radius: 0px;
+}
+
+.aboutus_underline_img{
+  border: 1px solid #A9A9A9
+}
+
+
+/*teams styles */
+
+#team {
+  position: relative;
+}
+
+#team {
+  padding: 30px 0;
+}
+.sec-heading h6 {
+  font-family: "Allura", cursive;
+  font-size: 65px;
+}
+.img-area {
+  overflow: hidden;
+  padding: 15px 0 15px;
+}
+.img-area img {
+  margin: 0 auto;
+  width: 230px;
+}
+.team_data i {
+  display: inline-block;
+  color: #ffb400;
+  margin: 0 4px;
+}
+.team_data h4 {
+  font-weight: 600;
+}
+.team_data h5 {
+  color: #3b04db;
+  margin: 10px 0 0;
+  font-weight: 600;
+}
+.team_data a {
+  display: inline-block;
+  margin: 25px 0 0;
+  background-color: darkorange;
+  color: #fff;
+  padding: 10px 35px;
+  border-radius: 4px;
+}
+
+
+/* services styles */
+
+.service_part {
+  position: relative;
+}
+
+.communications {
+  position: relative;
+}
+
+.Traning {
+  position: relative;
+}
+
+.facilitation {
+  position: relative;
+}
+
+
+.clients {
+  position: relative;
+}
+
+.ct-line-color {
+  display: inline-block;
+  margin-right: 20px;
+  width: 50px;
+  height: 2px;
+  top: -4px;
+  position: relative;
+  background-color: #f00;
+}
+.service-contant {
+  text-align: right;
+}
+.service-contant-left {
+  text-align: left;
+}
+.service_tittle h2 {
+  font-family: Rubik;
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 57px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.service-contant h2 {
+  font-family: Rubik;
+  font-size: 42px;
+  font-weight: 500;
+  line-height: 50px;
+  letter-spacing: 0em;
+}
+.service-contant p {
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: right;
+}
+
+/* project styles and clients styles */ 
+
+.project {
+  position: relative;
+}
+
+.project_tittle h2 {
+  text-align: center;
+}
+.project_img img {
+  width: 100%;
+}
+.project-img {
+  position: relative;
+}
+
+
+.clients .gray {
+  display: block;
+}
+.link-row img {
+  width: 100%;
+  height: 45px;
+  margin-bottom: 14px;
+  padding-left: 7px;
+}
+.link-row a {
+  margin-top: 10px;
+}
+
+.project_tittle::after {
+  content: '';
+  background: #A9A9A9;
+  height: 10px;
+  width: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+  display: block;
+  transform: translateY(8px);
+}
+
+/* footer styles */
+.footer-title{
+font-family: Rubik;
+font-size: 16px;
+font-weight: 700;
+line-height: 35px;
+letter-spacing: 0em;
+text-align: left;
+}
+.footer_col{
+  background-color: #BFDBFF;
+  padding: 33px;
+}
+.links{
+  padding: 0px;
+}
+.footer_data{
+font-size: 14px;
+font-weight: 400;
+line-height: 31px;
+letter-spacing: 0em;
+text-align: left;
+}
+
+.footer-bottom p{
+font-size: 14px;
+Line-height: 17px;
+}
+
+.project-img {
+  position: relative;
+  width: 100%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.text {
+  color: white;
+  font-size: 46px;
+  font-weight: 700;
+  font-family: "Rubik", sans-serif;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+}
+
+/* putting side images */
+
+.project:before {
+  content: "";
+  position: absolute;
+  width: 180px;
+  height: 362px;
+  background-image: url("../images/Asset 8 2.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  right: 0;
+  top: -172px;
+  z-index: -1;
+}
+
+#team:before {
+  content: "";
+  position: absolute;
+  width: 282px;
+  height: 362px;
+  background-image: url("../images/Asset 5 1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.service_part:before {
+  content: "";
+  position: absolute;
+  width: 282px;
+  height: 362px;
+  background-image: url("../images/Asset 5 1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+.communications:before {
+  content: "";
+  position: absolute;
+  width: 180px;
+  height: 362px;
+  background-image: url("../images/Asset 6 1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+}
+
+.Traning:before {
+  content: "";
+  position: absolute;
+  width: 180px;
+  height: 362px;
+  background-image: url("../images/Asset 8 2.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+}
+.facilitation:before {
+  content: "";
+  position: absolute;
+  width: 150px;
+  height: 162px;
+  background-image: url("../images/Asset 7 1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  left: 0;
+  bottom: 0;
+}
+.clients:before {
+  content: "";
+  position: absolute;
+  width: 137px;
+  height: 362px;
+  background-image: url("../images/Assets 9 1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
